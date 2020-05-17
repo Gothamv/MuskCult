@@ -312,24 +312,17 @@ And you can add the following patterns to tell git to ignore such files.
     /build
     etc. depending upon the files you want git to untrack
 
-## And that’s pretty much it for the basics. Stay tuned for Part 2 which will focus on Branch, Merge, Stash, Rebase etc.
-
-![](https://cdn-images-1.medium.com/max/2000/1*azp-S618Nvx4KigFrRABzQ.gif)
-
-## If you enjoyed the article, don’t forget to smash that Clap button and make sure you follow me for Part 2.
-
+## And that’s pretty much it for the basics.
 ## Peace Out ✌️
 
 **References :**
-[**Adding an existing project to GitHub using the command line - User Documentation**
-*Putting your existing work on GitHub can let you share and collaborate in lots of great ways. If you are migrating your…*help.github.com](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
-[**How to undo (almost) anything with Git**
-*One of the most useful features of any version control system is the ability to "undo" your mistakes. In Git, "undo"…*blog.github.com](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/)
-[**Git on the commandline - Don't be afraid to commit 0.3 documentation**
-*There are other ways of installing Git; you can even get a graphical Git application, that will include the commandline…*dont-be-afraid-to-commit.readthedocs.io](https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
-[**Start using Git on the command line | GitLab**
-*Documentation for GitLab Community Edition, GitLab Enterprise Edition, Omnibus GitLab, and GitLab Runner.*docs.gitlab.com](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/3a2x1iJFJWc" frameborder="0" allowfullscreen></iframe></center>
-[**What is the difference between 'git pull' and 'git fetch'?**
-*Moderator Note: Given that this question has already had sixty-seven answers posted to it (some of them deleted)…*stackoverflow.com](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)
+<br>
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+<br>
+https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/
+<br>
+https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
+<br>
+https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
+<br>
+https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch

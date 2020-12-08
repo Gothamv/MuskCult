@@ -193,8 +193,3 @@ Para fazer download de um repositório desejado por você (seja ele seu mesmo ou
   - Exemplo:
     - **git clone** [https://github.com/Gothamv/MuskCult](https://github.com/Gothamv/MuskCult)
     - Fazendo isso você simplesmente vai baixar a versão original à qual eu me inspirei para fazer esse artigo de estudos.
-
-#### 17. Enviando mudanças ao repositório Git
-
-Agora você trabalhar com os arquivos desejados por você e fazer commits localmente. Se você 
-    

@@ -318,7 +318,7 @@ And you can add the following patterns to tell git to ignore such files.
 
 ## Peace Out ✌️
 
-**References :**
-https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
-https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/
-https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
+**References :** <br>
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/ <br>
+https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/ <br>
+https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html <br>

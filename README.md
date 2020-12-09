@@ -92,7 +92,7 @@ If you are on **Windows**:
     $ get a mac
 
 Just kidding… Relax… The number of people I triggered… Phew…
-Go to this [link](https://www.apple.com/macos/what-is/)** or this **[link](https://gitforwindows.org/) for more info on how to get it.
+Go to this [link](https://www.apple.com/macos/what-is/) or this [link](https://gitforwindows.org/) for more info on how to get it.
 
 ## Step 2: Tell Git who you are.
 
@@ -110,8 +110,8 @@ Introduce yourself. Slide in. Seriously, mention your Git username and email add
 
 Why you ask? Using the **SSH protocol**, you can **connect and authenticate** to r**emote servers and services**. With SSH keys, you can connect to GitHub without supplying your username or password at each visit.
 
-Follow this [link](https://help.github.com/articles/about-ssh/)to learn more about SSH.
-Go [here](https://help.github.com/articles/checking-for-existing-ssh-keys/) **to check if you have an existing SSH key.
+Follow this [link ](https://help.github.com/articles/about-ssh/)to learn more about SSH.
+Go [here ](https://help.github.com/articles/checking-for-existing-ssh-keys/)to check if you have an existing SSH key.
 Go [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) to generate a SSH Key.
 Go [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to add the SSH key to your GitHub account.
 And finally, go [here](https://help.github.com/articles/testing-your-ssh-connection/) to test its connection.
@@ -197,7 +197,7 @@ The **git remote -v** command lists the URLs of the remote connections you have 
 
     $ git push -u origin master # pushes changes to origin
 
-Now the **git push **command pushes the changes in your local repository up to the remote repository you specified as the origin.
+Now the **git push ** command pushes the changes in your local repository up to the remote repository you specified as the origin.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*w-nfopsKIks_JRzFe5D8xA.gif)
 

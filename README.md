@@ -8,6 +8,9 @@ Yes, the title is a clickbait. There is no way you can *understand* the basics o
 
 If you want to get started on learning about Git technology, you’ve come to the right place. This is a comprehensive beginner’s guide to Git. There are many clients for Git. The technology is all the same no matter the client. But in this guide we’ll be using GitHub to understand Git.
 
+You can read a Portuguese supplement to the article by [@2504Guimaraes](https://github.com/2504Guimaraes) [here](https://github.com/Gothamv/MuskCult/blob/master/README.brazilian_portuguese.md).
+Translations are welcome here! Just send me a pull request.
+
 ### Let’s get started!
 
 ## What is Version Control?

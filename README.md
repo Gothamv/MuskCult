@@ -2,7 +2,7 @@
 
 ![](https://cdn-images-1.medium.com/max/4388/1*4kDk9CZEEJBllqd3Fx549A.png)
 
-## **Learn the Basics of Git in Under 10 Minutes**
+## Learn the Basics of Git in Under 10 Minutes
 
 Yes, the title is clickbait. There is no way you can *understand* the basics of git technology in just 10 minutes. But you can get pretty close in about 25 minutes. And that is the purpose of this article.
 
@@ -79,30 +79,30 @@ If you don't already have one, you can make one [here](https://github.com/join).
 
 If you are on a **Mac**, fire up the terminal and enter the following command:
 
-    $ **git --version**
+    $ git --version
 
 This will prompt open an installer if you don’t already have git. So set it up using the installer. If you have git already, it’ll just show you which version of git you have installed.
 
 If you are running **Linux**(deb), enter the following in the terminal:
 
-    $ **sudo apt install git-all**
+    $ sudo apt install git-all
 
 If you are on **Windows**:
 
-    $ **get a mac**
+    $ get a mac
 
 Just kidding… Relax… The number of people I triggered… Phew…
-Go to this [**link](https://www.apple.com/macos/what-is/)** or this **[link](https://gitforwindows.org/)** for more info on how to get it.
+Go to this [link](https://www.apple.com/macos/what-is/)** or this **[link](https://gitforwindows.org/) for more info on how to get it.
 
 ## Step 2: Tell Git who you are.
 
 Introduce yourself. Slide in. Seriously, mention your Git username and email address, since every Git commit will use this information to identify you as the author.
 
-    $ **git config --global user.name "YOUR_USERNAME" **
+    $ git config --global user.name "YOUR_USERNAME"
 
-    $ **git config --global user.email "im_satoshi@musk.com"**
+    $ git config --global user.email "im_satoshi@musk.com"
 
-    $ **git config --global --list** # To check the info you just provided
+    $ git config --global --list # To check the info you just provided
 
 ![](https://cdn-images-1.medium.com/max/2000/1*JbyUdhLMEdglRxQk6PH7Vg.gif)
 
@@ -110,19 +110,19 @@ Introduce yourself. Slide in. Seriously, mention your Git username and email add
 
 Why you ask? Using the **SSH protocol**, you can **connect and authenticate** to r**emote servers and services**. With SSH keys, you can connect to GitHub without supplying your username or password at each visit.
 
-Follow this **[link](https://help.github.com/articles/about-ssh/) **to learn more about SSH.
-Go [**here](https://help.github.com/articles/checking-for-existing-ssh-keys/) **to check if you have an existing SSH key.
-Go [**here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)** to generate a SSH Key.
-Go [**here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) **to add the SSH key to your GitHub account.
-And finally, go [**here](https://help.github.com/articles/testing-your-ssh-connection/)** to test its connection.
+Follow this [link](https://help.github.com/articles/about-ssh/)to learn more about SSH.
+Go [here](https://help.github.com/articles/checking-for-existing-ssh-keys/) **to check if you have an existing SSH key.
+Go [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) to generate a SSH Key.
+Go [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to add the SSH key to your GitHub account.
+And finally, go [here](https://help.github.com/articles/testing-your-ssh-connection/) to test its connection.
 
 If you did setup SSH, every git command that has a link you replace it by:
 
-    **Instead of : https://github.com/username/reponame**
+    Instead of : https://github.com/username/reponame
 
-    **You use    : git@github.com/username/reponame.git**
+    You use    : git@github.com/username/reponame.git
 
-           **    Note : You can use both ways alternatively**
+               Note : You can use both ways alternatively
 
 **I’ll be using SSH protocol in this tutorial.**
 
@@ -131,14 +131,14 @@ If you did setup SSH, every git command that has a link you replace it by:
 Create a new repository on GitHub. Follow this [link](https://github.com/new).
 Now, locate the folder you want to place under git in your terminal.
 
-    $ **cd Desktop/MuskCult**
+    $ cd Desktop/MuskCult
 
 ### Initialize Git:
 
 And to place it under git, enter:
 
-    $ **touch README.md**    # To create a README file for the repository
-    $ **git init **          # Initiates an empty git repository
+    $ touch README.md   # To create a README file for the repository
+    $ git init         # Initiates an empty git repository
 
 ![](https://cdn-images-1.medium.com/max/2000/1*Q_DUXRghgFQb9F47mUB6LQ.gif)
 
@@ -148,17 +148,17 @@ Now go edit the README.md file to provide information about the repository.
 
 Now to add the files to the git repository for commit:
 
-    $ **git add .**  
+    $ git add .
     # Adds all the files in the local repository and stages them for commit
 
-    **OR** if you want to add a specific file
+    OR if you want to add a specific file
 
-    $ **git add README.md** 
+    $ git add README.md
     # To add a specific file
 
 ### Before we commit let’s see what files are staged:
 
-    $ **git status **# Lists all new or modified files to be committed
+    $ git status # Lists all new or modified files to be committed
 
 ![](https://cdn-images-1.medium.com/max/2000/1*a2_hw7cMe2R9R_aI86dB-A.gif)
 
@@ -166,8 +166,8 @@ Now to add the files to the git repository for commit:
 
 Now to commit files you added to your git repo:
 
-    $ **git commit -m "First commit"
-    **# The message in the " " is given so that the other users can read the message and see what changes you made
+    $ git commit -m "First commit"
+    # The message in the " " is given so that the other users can read the message and see what changes you made
 
 ![](https://cdn-images-1.medium.com/max/2000/1*LoUwFy29RkgCS7hCajd_3g.gif)
 
@@ -175,8 +175,8 @@ Now to commit files you added to your git repo:
 
 Now suppose you just made some error in your code or placed an unwanted file inside the repository, you can unstage the files you just added using:
 
-    $ **git reset HEAD~1
-    **# Remove the most recent commit
+    $ git reset HEAD~1
+    # Remove the most recent commit
     # Commit again!
 
 ![](https://cdn-images-1.medium.com/max/2000/1*rxOX_U-ZRmGfhgIhNWlDIQ.gif)
@@ -185,17 +185,17 @@ Now suppose you just made some error in your code or placed an unwanted file ins
 
 Now each time you make changes in your files and save it, it won’t be automatically updated on GitHub. All the changes we made in the file are updated in the local repository. Now to update the changes to the master:
 
-    $ **git remote add origin *remote_repository_URL
-    **# *sets the new remote
+    $ git remote add origin *remote_repository_URL
+    # sets the new remote
 
 The **git remote** command lets you create, view, and delete connections to other repositories.
 
-    *$ ***git remote -v
-    **# List the remote connections you have to other repositories.
+    $ git remote -v
+    # List the remote connections you have to other repositories.
 
 The **git remote -v** command lists the URLs of the remote connections you have to other repositories.
 
-    $ **git push -u origin master **# pushes changes to origin
+    $ git push -u origin master # pushes changes to origin
 
 Now the **git push **command pushes the changes in your local repository up to the remote repository you specified as the origin.
 
@@ -211,7 +211,7 @@ And that’s it. You’ve just added the files to the repository you just create
 
 Once you start making changes on your files and you save them, the file won’t match the last version that was committed to git. To see the changes you just made:
 
-    $ **git diff **# To show the files changes not yet staged
+    $ git diff # To show the files changes not yet staged
 
 ![](https://cdn-images-1.medium.com/max/2000/1*xym1QvvvWorfoyGMXv28Yg.gif)
 
@@ -219,11 +219,11 @@ Once you start making changes on your files and you save them, the file won’t 
 
 Now you can choose to revert back to the last committed version by entering:
 
-    $ **git checkout .**
+    $ git checkout .
 
-    **OR** for a specific file
+    OR for a specific file
 
-    $ **git checkout -- <filename>**
+    $ git checkout -- <filename>
 
 ![](https://cdn-images-1.medium.com/max/2000/1*HYgYkfo3W4MUA8CJl12rXg.gif)
 
@@ -231,16 +231,16 @@ Now you can choose to revert back to the last committed version by entering:
 
 You can use the **git log** command to see the history of commits you made to your files:
 
-    $ **git log**
+    $ git log
 
 ![](https://cdn-images-1.medium.com/max/2000/1*9w7uBJcQMxc708DBw8Sewg.gif)
 
 Each time you make changes that you want to be reflected on GitHub, the following are the most common flow of commands:
 
-    $ **git add .**
-    $ **git status **# Lists all new or modified files to be committed**
-    **$ **git commit -m "Second commit"*
-    ***$ **git push -u origin master**
+    $ git add .
+    $ git status # Lists all new or modified files to be committed
+    $ git commit -m "Second commit"
+    $ git push -u origin master
 
 ![](https://cdn-images-1.medium.com/max/2000/1*rWBJnBdF1V8YO_mi-jEfxA.gif)
 
@@ -254,7 +254,7 @@ Now if we go and see our repo, we can identify whether the commit was successful
 
 Locate to the directory you want to clone the repo. Copy the link of the repository you want and enter the following:
 
-    $ **git clone *remote_repository_URL***
+    $ git clone *remote_repository_URL
 
 Feel free to go ahead and clone the repo I created above using: [https://github.com/Gothamv/MuskCult](https://github.com/Gothamv/MuskCult)
 
@@ -274,15 +274,15 @@ Now below is an example of a project my friend and I are collaborating on:
 
 So to make sure those changes are reflected on my local copy of the repo:
 
-    $ **git pull origin master**
+    $ git pull origin master
 
 ![](https://cdn-images-1.medium.com/max/2000/1*ySDKu2OEdkc26yOUp-TJJQ.gif)
 
 ### Here are two more useful git commands:
 
-    $ **git fetch
-        **AND
-    $ **git merge**
+    $ git fetch
+        AND
+    $ git merge
 
 In the simplest terms, git fetch followed by a git merge equals a git pull. But then why do these exist?
 

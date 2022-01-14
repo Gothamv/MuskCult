@@ -2,7 +2,7 @@
 
 ![](https://cdn-images-1.medium.com/max/4388/1*4kDk9CZEEJBllqd3Fx549A.png)
 
-## Learn the Basics of Git in Under 10 Minutes
+## Learn the Basics of Git in Under 1 hour (because you know this tutorial didn't take ten minutes to go through)123123123
 
 Yes, the title is clickbait. There is no way you can *understand* the basics of git technology in just 10 minutes. But you can get pretty close in about 25 minutes. And that is the purpose of this article.
 

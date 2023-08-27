@@ -1,0 +1,37 @@
+Steps I did after cloning and pushing changes to the repo following the tutorial:
+
+1. Clone the repository:
+$ git clone git@github.com:Gothamv/MuskCult.git
+
+2. See if folder is correctly clone:
+$ ls
+
+3. Change directory to the cloned folder
+$ cd MuskCult/
+
+4. See hidden and all files in the folder:
+$ ls -a
+
+5. Initialize a file under the Git Repository:
+$ touch TestPushRepo.txt
+
+6. Initiates an empty git repository:
+$ git init
+
+7. Add the new created file to Staging Area to commit:
+$ git add TestPushRepo.txt
+
+8. See file is staged
+$ git status
+
+9. View changes made to the file
+$ git diff
+
+10. Commit changes made to the Git Repo:
+$ git commit -m "Testing"
+
+11. View commit history
+$ git log --oneline OR $ git log
+
+12. Push changes
+$ git push -u origin main

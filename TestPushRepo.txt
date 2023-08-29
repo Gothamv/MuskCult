@@ -24,14 +24,44 @@ $ git add TestPushRepo.txt
 8. See file is staged
 $ git status
 
-9. View changes made to the file
-$ git diff
+9. Check for which branch I'm at:
+$ git branch
 
-10. Commit changes made to the Git Repo:
+10. Create a new branch (if neccessary):
+$ git checkout -b <new_branch_name>
+
+11. Switch between branches (if neccessary):
+$ git checkout <branch_name>
+
+12. Check for new changes have been made but not yet staged or committed (optional):
+& git diff
+
+13. If new changes is made in file, add file to repo, then commit (optional when new changes is made)
+
+14. Commit changes made to the Git Repo:
 $ git commit -m "Testing"
 
-11. View commit history
+15. View commit history:
 $ git log --oneline OR $ git log
 
-12. Push changes
-$ git push -u origin main
+16. Create a PR (aka. pull request). Since I don't have direct access to repo, then I have to create a fork to create a PR:
+Source: 
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
+    a. Create a new fork
+    b. At my fork, get the SSH remote repo URL
+    c. Add the remote repo, with command OR Set the remote repo:
+    $ git remote add origin <remote_repository_URL>
+    OR
+    $ git remote set-url <remote_repository_URL>
+
+17. Check for the remote repo:
+$ git remote -v
+
+18. Push changes
+$ git push -u origin <my_branch_name>
+
+19. Reload the "pull requests" page
+
+20. "To create a pull request that is ready for review, click Create Pull Request"
+
+21. Once the PR is accepted, then I can pull it to the main/master branch

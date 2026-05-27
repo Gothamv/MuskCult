@@ -317,6 +317,7 @@ And you can add the following patterns to tell git to ignore such files.
 ## And that’s pretty much it for the basics. Stay tuned for Part 2 which will focus on Branch, Merge, Stash, Rebase, etc.
 
 ## Peace Out ✌️
+## Who doesnt love peace? This is just a simple commit
 
 **References :** <br>
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/ <br>

@@ -1,3 +1,4 @@
+Hi!
 # The Repo for 'Learn the Basics of Git in Under 10 Minutes' on Medium.
 
 ![](https://cdn-images-1.medium.com/max/4388/1*4kDk9CZEEJBllqd3Fx549A.png)

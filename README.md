@@ -92,7 +92,7 @@ If you are on **Windows**:
     $ get a mac
 
 Just kidding… Relax… The number of people I triggered… Phew…
-Go to this [link](https://www.apple.com/macos/what-is/) or this [link](https://gitforwindows.org/) for more info on how to get it.
+Go to this [link](https://git-scm.com/download/win) or this [link](https://gitforwindows.org/) for more info on how to get it.
 
 ## Step 2: Tell Git who you are.
 
